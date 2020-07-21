@@ -71,9 +71,15 @@ const About = ({ showSection, setShowSection }) => (
         <SubTitle primaryColor margin="2rem 0">
           Connect with me<Color color="white">:</Color>
         </SubTitle>
-        <Link href={urls.LINKS.linkedin}>{"<Linkedin />"}</Link>
-        <Link href={urls.LINKS.github}>{"<Github />"}</Link>
-        <Link href={urls.LINKS.medium}>{"<Medium />"}</Link>
+        <Link href={urls.LINKS.linkedin} target="_blank">
+          {"<Linkedin />"}
+        </Link>
+        <Link href={urls.LINKS.github} target="_blank">
+          {"<Github />"}
+        </Link>
+        <Link href={urls.LINKS.medium} target="_blank">
+          {"<Medium />"}
+        </Link>
       </Div>
     </FlexStart>
   </Section>
