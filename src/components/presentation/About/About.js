@@ -34,7 +34,7 @@ const About = ({ showSection, setShowSection }) => (
         technology and Front-End development.
       </Paragraph>
       <Paragraph>
-        I currently work at{" "}
+        I'm a developer since 2016 and I currently work at{" "}
         <Link href={urls.LINKS.work} noPadding>
           @ioasys
         </Link>{" "}
