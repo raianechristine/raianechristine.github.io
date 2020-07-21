@@ -1,16 +1,22 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 import { ReactComponent as IconCoffee } from "assets/svg/coffee.svg";
 
-export const Section = styled.section`
+export const Section = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 1.5rem;
   right: 0;
   left: 0;
+  bottom: 0;
+  padding: 1rem;
   z-index: 2;
+  background: transparent;
+  ${media.lessThan("medium")`
+    z-index: 0;
+  `};
 `;
 
 export const SignatureText = styled.span`

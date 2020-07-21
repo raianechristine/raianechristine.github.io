@@ -54,7 +54,7 @@ const About = ({ showSection, setShowSection }) => (
       <Div margin="2rem 0 0">
         <FlexStart>
           <SubTitle primaryColor margin="2rem 0">
-            Facts<Color color="white">:</Color>
+            Facts:
           </SubTitle>
           <Paragraph>
             I'm currently learning English, NodeJs and React Native
@@ -69,7 +69,7 @@ const About = ({ showSection, setShowSection }) => (
 
       <Div margin="2rem 0">
         <SubTitle primaryColor margin="2rem 0">
-          Connect with me<Color color="white">:</Color>
+          Connect with me:
         </SubTitle>
         <Link href={urls.LINKS.linkedin} target="_blank">
           {"<Linkedin />"}

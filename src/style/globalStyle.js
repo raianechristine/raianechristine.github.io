@@ -42,7 +42,7 @@ const GlobalStyle = createGlobalStyle`
 
   ::-webkit-scrollbar {
     background-color: transparent;
-    width: 0.4rem;
+    width: 0.1rem;
   }
 
   ::-webkit-scrollbar-thumb {
