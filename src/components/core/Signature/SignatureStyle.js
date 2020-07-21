@@ -13,7 +13,6 @@ export const Section = styled.div`
   bottom: 0;
   padding: 1rem;
   z-index: 2;
-  background: transparent;
   ${media.lessThan("medium")`
     z-index: 0;
   `};

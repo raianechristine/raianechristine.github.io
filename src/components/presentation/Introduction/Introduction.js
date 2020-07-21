@@ -11,7 +11,7 @@ const Introduction = () => {
     <>
       <Section>
         <FlexCenter>
-          <Title margin="4rem 0">
+          <Title margin="0 0 4rem 0">
             Hi<Color color="white">.</Color>
           </Title>
           <SubTitle>I'm Raiane Christine and </SubTitle>
