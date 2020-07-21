@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/raiane-christine/static/js/main.13cf4300.chunk.js",
-    "main.js.map": "/raiane-christine/static/js/main.13cf4300.chunk.js.map",
+    "main.js": "/raiane-christine/static/js/main.ecd55654.chunk.js",
+    "main.js.map": "/raiane-christine/static/js/main.ecd55654.chunk.js.map",
     "runtime-main.js": "/raiane-christine/static/js/runtime-main.241a6f1b.js",
     "runtime-main.js.map": "/raiane-christine/static/js/runtime-main.241a6f1b.js.map",
     "static/js/2.dff47323.chunk.js": "/raiane-christine/static/js/2.dff47323.chunk.js",
     "static/js/2.dff47323.chunk.js.map": "/raiane-christine/static/js/2.dff47323.chunk.js.map",
     "index.html": "/raiane-christine/index.html",
-    "precache-manifest.071edf068cf23e04873abb9ada24aa60.js": "/raiane-christine/precache-manifest.071edf068cf23e04873abb9ada24aa60.js",
+    "precache-manifest.cd84a5a9178b1da54a6b6b8f0f221173.js": "/raiane-christine/precache-manifest.cd84a5a9178b1da54a6b6b8f0f221173.js",
     "service-worker.js": "/raiane-christine/service-worker.js",
     "static/js/2.dff47323.chunk.js.LICENSE.txt": "/raiane-christine/static/js/2.dff47323.chunk.js.LICENSE.txt",
     "static/media/Gilroy-Bold.woff": "/raiane-christine/static/media/Gilroy-Bold.a2f4251c.woff",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.241a6f1b.js",
     "static/js/2.dff47323.chunk.js",
-    "static/js/main.13cf4300.chunk.js"
+    "static/js/main.ecd55654.chunk.js"
   ]
 }
