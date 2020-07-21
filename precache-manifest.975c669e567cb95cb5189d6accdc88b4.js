@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "141b95b6bc2f1bf2dee3c195fe0211d4",
+    "revision": "5a8ba85bbe2840fb2757b2af9c645c87",
     "url": "/raiane-christine/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/raiane-christine/static/js/2.4bc00301.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f90671bc9a6f0468755",
-    "url": "/raiane-christine/static/js/main.36179a36.chunk.js"
+    "revision": "4528f9cffca88ae28c39",
+    "url": "/raiane-christine/static/js/main.d04fddd8.chunk.js"
   },
   {
     "revision": "cac5b83b1e7cc387e765",
