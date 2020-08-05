@@ -25,8 +25,8 @@ const GlobalStyle = createGlobalStyle`
     --color-primary: #e01e69;
     --color-secondary: #20b1c4;
     --color-primary-hover: #20b1c4;
-    --color-white: #d2d0d0;
-    --color-backgroud: #1d1c1c;
+    --color-white: #a2a2a2;
+    --color-backgroud: #080808;
     --color-background-section-active: rgb(6 6 6 / 84%);
          
     --font-size-default: 1.6rem;
@@ -42,11 +42,10 @@ const GlobalStyle = createGlobalStyle`
 
   ::-webkit-scrollbar {
     background-color: transparent;
-    width: 0.1rem;
+    width: 0.3rem;
   }
 
   ::-webkit-scrollbar-thumb {
-    border-radius: 0.4rem;
     background-color: var(--color-primary);
   }
 

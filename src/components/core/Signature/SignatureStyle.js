@@ -22,11 +22,13 @@ export const SignatureText = styled.span`
   display: flex;
   align-items: center;
   font-size: 1rem;
-  color: var(--color-primary);
+  font-family: var(--font-family-gilroy);
+  letter-spacing: 0.1rem;
+  color: var(--color-white);
 `;
 
 export const Icon = styled(IconCoffee)`
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   width: 16px;
   height: auto;
 `;
