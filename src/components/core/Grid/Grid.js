@@ -37,7 +37,7 @@ export const FlexStart = styled.div`
 
 export const Div = styled.div`
   margin: ${({ margin }) => (margin ? margin : "0")};
-  width: 100%;
+  width: ${({ width }) => width ?? "100%"};
   height: 100%;
 `;
 

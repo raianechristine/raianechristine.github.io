@@ -12,7 +12,7 @@ export const Title = styled.h2`
   letter-spacing: 0.03rem;
   text-align: left;
   font-family: var(--font-family-gilroy);
-  font-size: ${({ fontSize }) => fontSize ?? "5.4rem"};
+  font-size: ${({ fontSize }) => fontSize ?? "7.4rem"};
   font-weight: 800;
   color: var(--color-primary);
 `;
@@ -20,6 +20,7 @@ export const Title = styled.h2`
 export const SubTitle = styled.h3`
   margin: ${({ margin }) => margin ?? "0"};
   line-height: 2.6rem;
+  text-align: ${({ textAlign }) => textAlign ?? "initial"};
   font-family: var(--font-family-gilroy);
   font-size: ${({ fontSize }) => fontSize ?? "2.0rem"};
   font-weight: bold;
@@ -31,7 +32,7 @@ export const SubTitle = styled.h3`
 `;
 
 export const Paragraph = styled.p`
-  display: inline-block;
+  display: ${({ display }) => display ?? "inline-block"};
   padding: ${({ padding }) => padding ?? "0"};
   margin: ${({ margin }) => margin ?? "0"};
   text-align: ${({ textAlign }) => textAlign ?? "initial"};
