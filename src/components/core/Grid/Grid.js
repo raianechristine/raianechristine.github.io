@@ -13,7 +13,7 @@ export const Section = styled.section`
   min-height: 100vh;
   transition: visibility 0s 0.5s, opacity 0.5s linear;
   ${media.lessThan("medium")`
-    padding: 3rem;
+    padding: 5rem 3rem;
   `};
 `;
 
@@ -49,11 +49,13 @@ export const ToggleSection = styled.div`
   margin: 0 auto;
   left: 0;
   right: 0;
-  overflow: scroll;
   background: var(--color-background-section-active);
   opacity: ${({ active }) => (active ? "1" : "0")};
   z-index: ${({ active }) => (active ? "1" : "0")};
   transition: visibility 0s 0.5s, opacity 0.5s linear;
+  ${media.lessThan("medium")`
+    overflow-y: scroll;
+  `};
 `;
 
 export const HideSection = styled.div`

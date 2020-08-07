@@ -5,7 +5,7 @@ import { Section, SignatureText, Icon } from "./SignatureStyle";
 const Signature = () => (
   <Section>
     <SignatureText>
-      By me <Icon />
+      Raiane Christine <Icon />
     </SignatureText>
   </Section>
 );

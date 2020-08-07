@@ -25,7 +25,7 @@ const Introduction = () => {
             margin="4rem 0"
             onClick={() => setShowSection(true)}
           >
-            About me
+            {"< about me />"}
           </SubTitle>
         </FlexCenter>
       </Section>

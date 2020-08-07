@@ -32,7 +32,7 @@ const About = ({ showSection, setShowSection }) => (
           pointer
           onClick={() => setShowSection(!showSection)}
         >
-          close<Color color="white">.</Color>
+          {"< close />"}
         </SubTitle>
       </HideSection>
 
@@ -42,7 +42,7 @@ const About = ({ showSection, setShowSection }) => (
 
           <Div margin="2rem 0">
             <FlexCenter>
-              <SubTitle primaryColor margin="2rem 0" textAlign="center">
+              <SubTitle primaryColor margin="1rem 0" textAlign="center">
                 Connect with me:
               </SubTitle>
               <Link href={urls.LINKS.linkedin} target="_blank" display="block">
@@ -77,28 +77,30 @@ const About = ({ showSection, setShowSection }) => (
           </Paragraph>
 
           <Div margin="2rem 0 0 0">
-            <SubTitle primaryColor margin="2rem 0">
+            <SubTitle primaryColor margin="1rem 0">
               What I know:
             </SubTitle>
             <Paragraph>
-              ReactJs, React Native, Styled Component, Hooks, Unit Testing,
-              Javascript, CSS/SASS.
+              ReactJs, React Native, Styled Components, Hooks, Redux, Unit
+              Testing, Javascript, HTML5, CSS/SASS.
             </Paragraph>
           </Div>
 
           <Div margin="2rem 0 0">
             <FlexStart>
-              <SubTitle primaryColor margin="2rem 0">
-                Facts:
+              <SubTitle primaryColor margin="1rem 0">
+                Some cool things:
               </SubTitle>
               <Paragraph>
-                I'm currently learning English, NodeJs and React Native
+                - I'm currently learning English, NodeJs and React Native
               </Paragraph>
-              <Paragraph>I have a beautiful 70s blue beetle</Paragraph>
-              <Paragraph>I have a great passion for Canada</Paragraph>
-              <Paragraph>I collect miniatures of games and drawings</Paragraph>
-              <Paragraph>I'm a big fan of Pink Floyd</Paragraph>
-              <Paragraph>I love creating drawings with CSS</Paragraph>
+              <Paragraph>- I have a beautiful 70s blue beetle</Paragraph>
+              <Paragraph>- I have a great passion for Canada</Paragraph>
+              <Paragraph>
+                - I collect miniatures of games and drawings
+              </Paragraph>
+              <Paragraph>- I'm a big fan of Pink Floyd</Paragraph>
+              <Paragraph>- I love creating drawings with CSS</Paragraph>
             </FlexStart>
           </Div>
         </Div>
