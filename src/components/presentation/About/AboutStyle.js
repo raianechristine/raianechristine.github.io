@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import media from "styled-media-query";
 
 import myPhoto from "assets/images/myPhoto.jpg";
 

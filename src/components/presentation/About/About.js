@@ -22,10 +22,6 @@ import { Photo } from "./AboutStyle";
 const About = ({ showSection, setShowSection }) => (
   <Section>
     <FlexStart>
-      <Title margin="0 0 7rem">
-        about me<Color color="white">.</Color>
-      </Title>
-
       <HideSection>
         <SubTitle
           primaryColor
@@ -36,7 +32,7 @@ const About = ({ showSection, setShowSection }) => (
         </SubTitle>
       </HideSection>
 
-      <FlexStart row={true}>
+      <FlexCenter row={true}>
         <Div width="30%">
           <Photo />
 
@@ -45,29 +41,46 @@ const About = ({ showSection, setShowSection }) => (
               <SubTitle primaryColor margin="1rem 0" textAlign="center">
                 Connect with me:
               </SubTitle>
-              <Link href={urls.LINKS.linkedin} target="_blank" display="block">
-                {"<Linkedin />"}
-              </Link>
+
               <Link
-                href={urls.LINKS.github}
+                href={urls.LINKS.linkedin}
                 target="_blank"
                 display="block"
                 margin="1rem 0"
               >
+                {"<Linkedin />"}
+              </Link>
+
+              <Link href={urls.LINKS.github} target="_blank" display="block">
                 {"<Github />"}
               </Link>
-              <Link href={urls.LINKS.medium} target="_blank" display="block">
+
+              <Link
+                href={urls.LINKS.medium}
+                target="_blank"
+                display="block"
+                margin="1rem 0"
+              >
                 {"<Medium />"}
+              </Link>
+
+              <Link href={urls.LINKS.instagram} target="_blank" display="block">
+                {"<Instagram />"}
               </Link>
             </FlexCenter>
           </Div>
         </Div>
 
-        <Div>
+        <Div margin="0 2rem">
+          <Title margin="4rem 0">
+            about me<Color color="white">.</Color>
+          </Title>
+
           <Paragraph>
             I'm graduated in Systems Analysis and Development, passionate about
             technology and Front-End development.
           </Paragraph>
+
           <Paragraph>
             I'm a developer since 2016 and I currently work at{" "}
             <Link href={urls.LINKS.work} noPadding>
@@ -81,8 +94,8 @@ const About = ({ showSection, setShowSection }) => (
               What I know:
             </SubTitle>
             <Paragraph>
-              ReactJs, React Native, Styled Components, Hooks, Redux, Unit
-              Testing, Javascript, HTML5, CSS/SASS.
+              ReactJs, React Native, Styled Components, Hooks, Redux, Jest,
+              React Testing Library, Javascript, HTML5, CSS/SASS.
             </Paragraph>
           </Div>
 
@@ -91,20 +104,26 @@ const About = ({ showSection, setShowSection }) => (
               <SubTitle primaryColor margin="1rem 0">
                 Some cool things:
               </SubTitle>
+
               <Paragraph>
                 - I'm currently learning English, NodeJs and React Native
               </Paragraph>
+
               <Paragraph>- I have a beautiful 70s blue beetle</Paragraph>
+
               <Paragraph>- I have a great passion for Canada</Paragraph>
+
               <Paragraph>
                 - I collect miniatures of games and drawings
               </Paragraph>
+
               <Paragraph>- I'm a big fan of Pink Floyd</Paragraph>
+
               <Paragraph>- I love creating drawings with CSS</Paragraph>
             </FlexStart>
           </Div>
         </Div>
-      </FlexStart>
+      </FlexCenter>
     </FlexStart>
   </Section>
 );
