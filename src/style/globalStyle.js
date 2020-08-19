@@ -22,12 +22,12 @@ const GlobalStyle = createGlobalStyle`
   }
 
   :root {
-    --color-primary: #e01e69;
-    --color-secondary: #20b1c4;
-    --color-primary-hover: #20b1c4;
-    --color-white: #a2a2a2;
-    --color-backgroud: #080808;
-    --color-background-section-active: rgb(6 6 6 / 84%);
+    --primary: #d22e66;
+    --secondary: #20b1c4;
+    --primary-hover: #ff699c;
+    --white: #a2a2a2;
+    --black: #080808;
+    --black-rbg: rgb(6 6 6 / 84%);
          
     --font-size-default: 1.6rem;
     --font-size-title: 2.6rem;
@@ -46,7 +46,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: var(--color-primary);
+    background-color: var(--primary);
   }
 
   html {
@@ -61,7 +61,7 @@ const GlobalStyle = createGlobalStyle`
     font-size: var(--font-size-default);
     font-weigth: 400;
     overflow-y: scroll;
-    background: var(--color-backgroud);
+    background: var(--black);
   }
 
   button {

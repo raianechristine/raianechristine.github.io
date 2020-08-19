@@ -9,6 +9,7 @@ const urls = {
     github: "https://github.com/raianechristine",
     linkedin: "https://www.linkedin.com/in/raianechristine",
     medium: "https://medium.com/@raianechristine",
+    instagram: "https://www.instagram.com/raianechristine",
   },
 };
 

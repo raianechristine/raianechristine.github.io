@@ -13,8 +13,9 @@ export const Section = styled.div`
   bottom: 0;
   padding: 1rem;
   z-index: 2;
+
   ${media.lessThan("medium")`
-    z-index: 0;
+      z-index: 0;
   `};
 `;
 
@@ -24,7 +25,7 @@ export const SignatureText = styled.span`
   font-size: 1rem;
   font-family: var(--font-family-gilroy);
   letter-spacing: 0.1rem;
-  color: var(--color-white);
+  color: var(--white);
 `;
 
 export const Icon = styled(IconCoffee)`
