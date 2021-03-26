@@ -5,11 +5,10 @@ const urls = {
     },
   },
   LINKS: {
-    work: "https://ioasys.com.br/",
+    work: "https:/ifood.com",
     github: "https://github.com/raianechristine",
     linkedin: "https://www.linkedin.com/in/raianechristine",
     medium: "https://medium.com/@raianechristine",
-    instagram: "https://www.instagram.com/raianechristine",
   },
 };
 
