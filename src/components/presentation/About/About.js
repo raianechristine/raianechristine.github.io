@@ -63,10 +63,6 @@ const About = ({ showSection, setShowSection }) => (
               >
                 {"<Medium />"}
               </Link>
-
-              <Link href={urls.LINKS.instagram} target="_blank" display="block">
-                {"<Instagram />"}
-              </Link>
             </FlexCenter>
           </Div>
         </Div>
@@ -84,9 +80,10 @@ const About = ({ showSection, setShowSection }) => (
           <Paragraph>
             I'm a developer since 2016 and I currently work at{" "}
             <Link href={urls.LINKS.work} noPadding>
-              @ioasys
+              @iFood.
             </Link>{" "}
-            with development in ReactJS.
+            I currently live in Belo Horizonte - MG, but my big dream is to have
+            a career in Canada =)
           </Paragraph>
 
           <Div margin="2rem 0 0 0">
@@ -95,7 +92,8 @@ const About = ({ showSection, setShowSection }) => (
             </SubTitle>
             <Paragraph>
               ReactJs, React Native, Styled Components, Hooks, Redux, Jest,
-              React Testing Library, Javascript, HTML5, CSS/SASS.
+              React Testing Library, Javascript, Typescript, HTML5, CSS/SASS,
+              Swift.
             </Paragraph>
           </Div>
 
@@ -104,10 +102,6 @@ const About = ({ showSection, setShowSection }) => (
               <SubTitle primaryColor margin="1rem 0">
                 Some cool things:
               </SubTitle>
-
-              <Paragraph>
-                - I'm currently learning English, NodeJs and React Native
-              </Paragraph>
 
               <Paragraph>- I have a beautiful 70s blue beetle</Paragraph>
 
